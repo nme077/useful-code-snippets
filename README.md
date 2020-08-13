@@ -1,4 +1,6 @@
-# Code Snippets for Quick Node.js App Setup
+# Code Snippets for Quick Node.js App Setup    
+
+After setting up a node.js app (run npm init), the following code can be added to your app.js file.
 -------
 
 
@@ -47,7 +49,13 @@ const express = require("express"), // express routing
 app.set('view engine', "ejs"); // Allows references to .ejs files without using the file extension
 // Required config
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(methodOverride("_method"));
+app.use(methodOverride("_method"));    
+
+
+// At the end of the app.js file
+app.listen(3000, () => {
+      console.log("the app is running");
+};
 ```
 
 
