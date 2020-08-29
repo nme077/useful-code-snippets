@@ -89,3 +89,15 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 ```
   
+## Standard CSS Adjustments
+```
+body {
+      margin: 0;
+}
+
+img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+}
+```
