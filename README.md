@@ -101,3 +101,8 @@ img {
       display: block;
 }
 ```
+
+## Terminal Commands
+
+To remove a filed from git tracking. i.e. .env file.
+```git rm --cached <file>``` 
